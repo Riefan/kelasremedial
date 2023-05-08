@@ -1,0 +1,80 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    background: #F4F4F4;
+}
+
+.container{
+    width: 100%;
+    width:460px;
+    background-color: white;
+    border-radius: 20px;
+    height:277px;
+}
+
+.title{
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.upload{
+    width: 412px;
+    height: 74px;
+    background-color: #F4F4F4;
+    margin-left: 25px;
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    display:flex;
+    justify-content: center;
+    color:#D7D7D7;
+}
+
+#URL{
+    margin-left: 25px;
+    width: 402px;
+    height: 22px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.textoption{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#option{
+    margin-top: 10px;
+    width: 180px;    
+    color:#D7D7D7;
+}    
+
+.Remove{
+   margin-left: 25px;
+   margin-top: 20px;
+   color: #D7D7D7;
+   background-color: #F8F8F8;
+   border: 0px solid white;
+}
+
+.Cancel{
+    margin-top: 20px;
+    background-color: white;
+    border: 0px solid white;
+}
+
+.Insert{
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: blue;
+    color:white;
+    border: 0px solid white;
+}
